@@ -40,5 +40,6 @@
     </dependencies>
     <modules>
         <module>Active-Mq-Sample</module>
+        <module>RabbitMQ-Sample</module>
     </modules>
 </project>

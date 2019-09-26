@@ -1,0 +1,17 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 9090
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+jsa:
+  rabbitmq:
+    queue: jsa.queue1
+    exchange: jsa.direct1
+    routingkey: jsa.routingkey1
